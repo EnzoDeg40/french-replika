@@ -1,0 +1,48 @@
+<style>
+    #french-replika {
+        position: fixed;
+        z-index: 999;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #35397E;
+        color: white;
+
+    }
+
+    #french-replika input:focus,
+    #french-replika textarea:focus,
+    #french-replika select:focus {
+        outline: none;
+    }
+
+    #french-replika-input {
+        background-color: #35397E;
+        border: none;
+        color: white;
+        font-size: 16px;
+        line-height: 18px;
+        resize: none;
+    }
+
+    #french-replika-button {
+        padding: 0px 15px;
+        height: 34px;
+        border: none;
+        border-radius: 16px;
+        background-color: rgb(125, 114, 191);
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #french-replika-button:hover {
+        background-color: rgb(114, 104, 172);
+        cursor: pointer;
+    }
+</style>
+<div id="french-replika">
+    <textarea placeholder="Conversation avec Akika" id="french-replika-input" name="french-replika-input" id=""
+        cols="30" rows="5"></textarea>
+    <br><br>
+    <input id="french-replika-button" type="button" value="Lire le dernier message">
+</div>
